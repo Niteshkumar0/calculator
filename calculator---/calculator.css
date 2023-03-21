@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 18rem;
+    text-align: center;
+    height: 28rem;
+    border-radius:7px ;
+    align-items: center;
+    overflow: hidden;
+    border: none;
+    background-color: rgb(35, 28, 28);
+
+}
+input{
+    font-size: 20px;
+    cursor: pointer;
+}
+.calculator{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+.displayInput{
+ width: 100%;
+ height: 120px;
+ background-color: rgb(35, 28, 28);
+color: white;
+border: none;
+text-align: right;
+cursor: pointer;
+padding-right: 25px;
+font-size: 35px;
+
+}
+.sameCss{
+    width: 60px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 5px 2px;
+    border: none;
+}
+.divide{
+    width: 100px;
+    padding: 50px;
+    border-radius:50px ;
+}
+.lastCol{
+    background-color: goldenrod;
+}
+.zero{
+    width: 120px;
+}
+.smallOperator{
+    width: 60px;
+    height: 50px;
+    border-radius: 100px;
+}
